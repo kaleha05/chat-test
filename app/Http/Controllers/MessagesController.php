@@ -10,7 +10,7 @@ class MessagesController extends Controller
     public function sendMessage(){
         return event(new MessagesEvent(
             array(
-                'message' => 'Hi`',
+                'message' => 'Hi',
                 'sender' => '0712345678',
 				'receiver_id' => 'uGNw6z2ACeaIeLapEUHrQ6RYqLp2'
             ), 'uGNw6z2ACeaIeLapEUHrQ6RYqLp2'
